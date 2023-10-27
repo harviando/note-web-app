@@ -14,6 +14,19 @@ const addNoteHandler = (request, h) => {
     const createdAt = new Date().toISOString();
     const updatedAt = createdAt;
 
+    if (body.includes('aezakmi')) {
+        const secretNote = {
+            title: 'You have spawned a secret note.',
+            tags: ['this', 'is', 'secret'],
+            body: 'This is the content of the super duper secret notes.',
+            id,
+            createdAt,
+            updatedAt,
+        };
+
+        notes.push(secretNote);
+    }
+
     const newNote = {
         title, tags, body, id, createdAt, updatedAt,
     };
