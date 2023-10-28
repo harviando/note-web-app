@@ -14,6 +14,16 @@ const addNoteHandler = (request, h) => {
     const createdAt = new Date().toISOString();
     const updatedAt = createdAt;
 
+    if (body.length < 5) {
+        const response = request.response({
+            status: 'fail',
+            message: 'The body is too short, try adding 5 or more characters into it!',
+        });
+
+        response.code(400);
+        return response;
+    }
+
     if (body.includes('aezakmi')) {
         const secretNote = {
             title: 'You have spawned a secret note.',
@@ -54,7 +64,7 @@ const addNoteHandler = (request, h) => {
     });
 
     response.code(500);
-        return response;
+    return response;
 };
 
 const getAllNotesHandler = () => ({
