@@ -1,3 +1,4 @@
+/* eslint-disable no-shadow */
 /* eslint-disable max-len */
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable indent */
@@ -25,6 +26,7 @@ const addNoteHandler = (request, h) => {
     }
 
     if (body.includes('aezakmi')) {
+        const id = nanoid(6);
         const secretNote = {
             title: 'You have spawned a secret note.',
             tags: ['this', 'is', 'secret'],
