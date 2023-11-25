@@ -4,6 +4,7 @@ A backend web application for handling RESTful API for notes CRUD operations.
 
 ## Backend Endpoint Address
 `https://note-web-app.harviando.repl.co/`
+<p><sub><i>If the server is not working the first time, retry again in 30 seconds</i></sub></p>
 
 ## Backend Routes and Features
 
@@ -58,6 +59,3 @@ A backend web application for handling RESTful API for notes CRUD operations.
 
 <hr>
 <p align="right"><sub><i>Created by Muhammad Harviando - 2023</i></sub></p>
-
-
-
