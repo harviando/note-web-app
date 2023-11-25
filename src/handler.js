@@ -158,7 +158,7 @@ const deleteNoteByIdHandler = (request, h) => {
 };
 
 const homeHandler = (request, h) => {
-  return h.response({message: 'Server is running and ready to receive requests!', tutorial: 'Please heads up to https://github.com/harviando/note-web-app for the testing tutorials, Thank You. ~Harvi'});
+  return h.response({status: 'Server is running and ready to receive requests!', message: 'Please visit https://github.com/harviando/note-web-app for more info, Thank You :)', author: 'Muhammad Harviando - 2023'});
 };
 
 module.exports = {
