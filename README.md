@@ -4,7 +4,7 @@ A backend web application for handling RESTful API for notes CRUD operations.
 
 ## Backend Endpoint Address
 `https://note-web-app.harviando.repl.co/`
-<p><sub><i>If the server was not up the first time, please retry in 30 seconds</i></sub></p>
+<p><sub><i>*If the server was not up the first time, please retry in 30 seconds.</i></sub></p>
 
 ## Backend Routes and Features
 
