@@ -50,14 +50,11 @@ A backend web application for handling RESTful API for notes CRUD operations.
    - **Method:** `DELETE`
    - **Description:** Removes a specific note by its unique ID.
 
-## Testing Your Backend
-
-Use your preferred web browser or an API testing tool like Postman to test the backend server. Follow the provided steps and use the sample data formats to interact with different backend features.
-
-Explore these functionalities to gain insights into the backend operations of our Note Web Application.
-
-
-
    
-Have a nice day~
-            -Harvi
+*Have a wonderful day :)*
+
+<hr>
+<p align="right"><sub><i>Created by Muhammad Harviando - 2023</i></sub></p>
+
+
+
