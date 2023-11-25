@@ -4,10 +4,10 @@ A backend web application for handling RESTful API for notes CRUD operations.
 
 ## Backend Routes and Features
 
-1. **Home - Greetings from the Server**
+1. **Home - Server Status**
    - **Route:** `/`
    - **Method:** `GET`
-   - **Description:** This route welcomes you with a friendly greeting message.
+   - **Description:** This route welcomes you with a server status message.
 
 2. **View All Notes**
    - **Route:** `/notes`
