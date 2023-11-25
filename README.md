@@ -2,6 +2,9 @@
 
 A backend web application for handling RESTful API for notes CRUD operations.
 
+## Backend Endpoint Address
+`https://note-web-app.harviando.repl.co/`
+
 ## Backend Routes and Features
 
 1. **Home - Server Status**
