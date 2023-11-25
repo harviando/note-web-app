@@ -157,10 +157,15 @@ const deleteNoteByIdHandler = (request, h) => {
     return response;
 };
 
+const homeHandler = (request, h) => {
+  return h.response({message: 'Server is running and ready to receive requests!', tutorial: 'Please heads up to https://github.com/harviando/note-web-app for the testing tutorials, Thank You. ~Harvi'});
+};
+
 module.exports = {
     addNoteHandler,
     getAllNotesHandler,
     getNoteByIdHandler,
     editNoteByIdHandler,
     deleteNoteByIdHandler,
+    homeHandler,
 };
